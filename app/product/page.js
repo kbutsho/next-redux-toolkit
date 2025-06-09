@@ -47,6 +47,7 @@ const ProductPage = () => {
                             <div className="card h-100">
                                 <div style={{ position: "relative", height: "250px", width: "100%" }}>
                                     <Image
+                                        priority
                                         src={product.thumbnail}
                                         alt={product.title}
                                         fill
